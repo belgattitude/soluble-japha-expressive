@@ -1,0 +1,5 @@
+parameters:
+	fileExtensions:
+		# Standard php files and .dist config files
+		- php
+		- dist
