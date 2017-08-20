@@ -1,0 +1,21 @@
+<?php
+
+
+return [
+    'soluble-japha-expressive' => [
+        /*
+        |--------------------------------------------------------------------------
+        | soluble-japha bridge adapter options
+        |--------------------------------------------------------------------------
+        |
+        | Specify the bridge servlet url and various options
+        |
+        | @link https://github.com/belgattitude/soluble-japha
+        | @var array
+        */
+        'adapter' => [
+            'servlet_address' => 'http://localhost:8080/javabridge/phpjavabridge.servlet',
+            'driver'          => 'pjb62'
+        ]
+    ]
+];

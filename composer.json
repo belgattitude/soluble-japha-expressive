@@ -1,5 +1,5 @@
 {
-  "name": "soluble/expressive-japha",
+  "name": "soluble/japha-expressive",
   "description": "soluble-japha integration for zend-expressive",
   "license": "MIT",
   "keywords": [
@@ -10,7 +10,7 @@
     "java",
     "bridge"
   ],
-  "homepage": "http://soluble.io",
+  "homepage": "https://github.com/belgattitude/soluble-japha-expressive",
   "type": "library",
   "authors": [
     {
@@ -20,22 +20,22 @@
   ],
   "autoload": {
     "psr-4": {
-      "Soluble\\Expressive\\Japha\\": "src/Soluble/Expressive/Japha"
+      "Soluble\\Japha\\Expressive\\": "src/Soluble/Japha/Expressive"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "SolubleTest\\Expressive\\Japha\\": "tests/SolubleTest/Expressive/Japha"
+      "SolubleTest\\Japha\\Expressive\\": "tests/SolubleTest/Japha/Expressive"
     }
   },
   "require": {
     "php": "^7.1",
+    "psr/container": "^1.0",
     "soluble/japha": "^2.2.3",
     "zendframework/zend-expressive": "^2.0.0"
-
   },
   "require-dev" : {
-    "phpunit/phpunit": "^6.1.4",
+    "phpunit/phpunit": "^6.2.0",
     "friendsofphp/php-cs-fixer": "^2.4.0",
     "pds/skeleton": "@dev",
     "phpstan/phpstan": "^0.8.3",
@@ -50,8 +50,8 @@
       "dev-master": "1.0-dev"
     },
     "zf": {
-      "component": "Soluble\\Expressive\\Japha",
-      "config-provider": "Soluble\\Expressive\\Japha\\ConfigProvider"
+      "component": "Soluble\\Japha\\Expressive",
+      "config-provider": "Soluble\\Japha\\Expressive\\ConfigProvider"
     }
   },
   "scripts": {
