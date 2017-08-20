@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="tests/bootstrap.php"
+<phpunit bootstrap="./vendor/autoload.php"
          backupGlobals="false"
          backupStaticAttributes="false"
          colors="true"
@@ -9,18 +9,8 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false">
-    <testsuites>
-        <testsuite name="wallit-unit">
-            <directory>tests/SolubleTest/Wallit</directory>
-        </testsuite>
-
-        <!-- this test suite contains a runnable expressive app -->
-        <testsuite name="wallit-web">
-            <directory>tests/ExpressiveWallitAppTest</directory>
-        </testsuite>
-
-    </testsuites>
     <filter>
+        <directory>tests/</directory>
         <whitelist>
             <directory suffix=".php">src/</directory>
         </whitelist>

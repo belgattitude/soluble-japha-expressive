@@ -15,7 +15,13 @@ return [
         */
         'adapter' => [
             'servlet_address' => 'http://localhost:8080/javabridge/phpjavabridge.servlet',
-            'driver'          => 'pjb62'
+
+            /*
+             | Optionally, you can define advanced params for the adapter
+             |
+             | - 'driver' => 'pjb62'
+             | - ''
+             */
         ]
     ]
 ];

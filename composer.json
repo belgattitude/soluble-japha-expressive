@@ -20,12 +20,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Soluble\\Japha\\Expressive\\": "src/Soluble/Japha/Expressive"
+      "Soluble\\Japha\\Expressive\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "SolubleTest\\Japha\\Expressive\\": "tests/SolubleTest/Japha/Expressive"
+      "SolubleTest\\Japha\\Expressive\\": "tests/"
     }
   },
   "require": {
@@ -40,7 +40,6 @@
     "pds/skeleton": "@dev",
     "phpstan/phpstan": "^0.8.3",
     "zendframework/zend-config-aggregator": "^1.0.0"
-
   },
   "conflict": {
     "container-interop/container-interop": "<1.2.0"
